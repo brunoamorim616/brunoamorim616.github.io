@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1"
+          name="viewport">
+    <title>Depurando JS</title>
+    <!-- Pondo Shortcut icon na página -->
+    <link href="img/favicon.png"
+          rel="icon"
+          type="imgage/png">
+
+    <!-- CSS BootStrap -->
+    <link crossorigin="anonymous"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          rel="stylesheet">
+</head>
+<body>
+    <header class="jumbotron bg-success text-light text-center">
+        <h1>Depurando usando ferramentas de Desenvolvedor</h1>
+
+    </header>
+    <!-- Formulário básico BootStrap/JS/CSS -->
+    <main class="container">
+        <div class="form-group">
+            <label for="num1">Primeiro Número:</label>
+            <input class="form-control" id="num1" type="number" autofocus tabindex="1">
+        </div>
+
+        <div class="form-group">
+            <label for="num2">Segundo Número:</label>
+            <input class="form-control" id="num2" type="number" tabindex="2">
+        </div>
+
+        <button class="btn btn-info" id="btnSomar" type="button" tabindex="3">
+            Somar números
+        </button>
+        <p class="resp"></p>
+    </main>
+<script src="js/debugger.js"></script>
+</body>
+</html>
